@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Fondo claro */
+    color: #333; /* Color de texto oscuro */
+}
+
+/* Encabezado */
+header {
+    background-color: #28a745; /* Color de fondo del encabezado */
+}
+
+header h1 {
+    margin-top: 10px;
+}
+
+/* Navegación */
+nav {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #28a745; /* Color del enlace */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Subrayar en hover */
+}
+
+/* Sección Triage */
+#triage {
+    padding: 20px 0;
+}
+
+.bg-danger, .bg-warning, .bg-success, .bg-primary {
+    color: white; /* Texto blanco en los bloques de colores */
+}
+
+/* Tarjetas */
+.card {
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ccc; /* Borde gris claro */
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* Secciones */
+section {
+    padding: 20px 0;
+}
+
+h2 {
+    color: #28a745; /* Color verde para los títulos de las secciones */
+}
+
+/* Footer */
+footer {
+    background-color: #28a745; /* Color de fondo del footer */
+    padding: 15px 0;
+}
